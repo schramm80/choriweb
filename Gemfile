@@ -20,6 +20,8 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'actionmailer'
 
+gem 'mail_form'
+
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'rails_12factor', group: :production

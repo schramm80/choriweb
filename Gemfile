@@ -20,6 +20,8 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'actionmailer'
 
+gem 'simple_form'
+
 gem 'mail_form'
 
 gem 'sdoc', '~> 0.4.0', group: :doc

@@ -1,13 +1,13 @@
 class ContactanosController < ApplicationController
 
   def new
-    @contactanos = Contactanos.new
+    @contactano = Contactano.new
   end
 
   def create
-    @contactanos = Contactanos.new(params[:contactanos])
-    @contactanos.request = request
-    if @contactanos.deliver
+    @contactano = Contactano.new(params[:contactano])
+    @contactano.request = request
+    if @contactano.deliver
       flash.now[:error] = nil
       flash.now[:notice] = 'Gracias por tu mensaje!'
     else
